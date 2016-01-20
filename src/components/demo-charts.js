@@ -7,9 +7,9 @@ var ChartistGraph = require('react-chartist')
 module.exports = React.createClass({
   render: function() {
     var lineChartData = {
-      labels: [1, 2, 3, 4, 5, 6, 7, 8],
+      labels: [1, 2, 3, 4, 5, 6, 7, 8, 9],
       series: [
-        [5, 9, 7, 8, 5, 3, 5, 4]
+        [5, 9, 7, 8, 5, 3, 5, 4,15]
       ]
     }
     var lineChartOptions = {
@@ -17,7 +17,7 @@ module.exports = React.createClass({
       showArea: true
     }
     var simpleLineChartData = {
-      labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+      labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri'],
       series: [
         [12, 9, 7, 8, 5],
         [2, 1, 3.5, 7, 3],

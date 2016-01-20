@@ -16,7 +16,7 @@
   //var injectTapEventPlugin = require("react-tap-event-plugin");
   //injectTapEventPlugin();
 
-  require("babel-polyfill");
+  //require("babel-polyfill");
 
   // Set up Router object
   var Route = Router.Route;

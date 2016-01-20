@@ -6,6 +6,7 @@ module.exports = React.createClass({
   render: function() {
     return (
       <div>
+        <h1>Hello from Electron!!!</h1>
         <DemoCharts />
         <DemoText />
       </div>
